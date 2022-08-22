@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), the Database Diagram File -->
+<!-- Modifying this generated file will probably render it invalid -->
+<DevartDatabaseDiagram>
+  <SchemaVersion>1.3</SchemaVersion>
+  <DatabaseProvider>aa8afe9c-7d62-4564-b477-c12e62e0f440</DatabaseProvider>
+  <Connection>
+    <Name>192.168.0.101</Name>
+    <Category>00000000-0000-0000-0000-000000000000</Category>
+    <ConnectionString>Data Source=192.168.0.101;Encrypt=False;Integrated Security=False;User ID=sa</ConnectionString>
+  </Connection>
+  <Settings>
+    <DbDiagramOptions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <EnableComments>false</EnableComments>
+      <CustomProperties />
+    </DbDiagramOptions>
+    <Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PageOptions">
+      <TopLeftMargins>
+        <Width>39.3700787401575 in/100</Width>
+        <Height>39.3700787401575 in/100</Height>
+      </TopLeftMargins>
+      <BottomRightMargins>
+        <Width>39.3700787401575 in/100</Width>
+        <Height>39.3700787401575 in/100</Height>
+      </BottomRightMargins>
+      <PaperSize>
+        <Width>827 in/100</Width>
+        <Height>1169 in/100</Height>
+      </PaperSize>
+    </Options>
+    <Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PrintOptions" />
+    <Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ViewOptions">
+      <ShadowOffset>
+        <X>4 px</X>
+        <Y>4 px</Y>
+      </ShadowOffset>
+      <CustomProperties />
+    </Options>
+  </Settings>
+  <VirtualRelations>
+    <RelationCount>0</RelationCount>
+  </VirtualRelations>
+  <Diagram Version="1.22.1.0">
+    <DiagramModel>
+      <Model xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="DDRootModel">
+        <CustomProperties>
+          <OID>0</OID>
+        </CustomProperties>
+        <Children>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>1</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1650 px</X>
+              <Y>290 px</Y>
+            </Location>
+            <Size>
+              <Width>262 px</Width>
+              <Height>182 px</Height>
+            </Size>
+            <DbOid>
+              <Path>StargoTest.dbo.DosageUnitType</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>False</ConstraintsCollapsed>
+              <IndexesCollapsed>False</IndexesCollapsed>
+              <TriggersCollapsed>False</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>2</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1630 px</X>
+              <Y>50 px</Y>
+            </Location>
+            <Size>
+              <Width>319 px</Width>
+              <Height>179 px</Height>
+            </Size>
+            <DbOid>
+              <Path>StargoTest.dbo.FormReleaseType</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>False</ConstraintsCollapsed>
+              <IndexesCollapsed>False</IndexesCollapsed>
+              <TriggersCollapsed>False</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>3</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1200 px</X>
+              <Y>610 px</Y>
+            </Location>
+            <Size>
+              <Width>398 px</Width>
+              <Height>250 px</Height>
+            </Size>
+            <DbOid>
+              <Path>StargoTest.dbo.PackageProduct</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>False</ConstraintsCollapsed>
+              <IndexesCollapsed>False</IndexesCollapsed>
+              <TriggersCollapsed>False</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>4</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>820 px</X>
+              <Y>20 px</Y>
+            </Location>
+            <Size>
+              <Width>280 px</Width>
+              <Height>233 px</Height>
+            </Size>
+            <DbOid>
+              <Path>StargoTest.dbo.Pharmacy</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>False</ConstraintsCollapsed>
+              <IndexesCollapsed>False</IndexesCollapsed>
+              <TriggersCollapsed>False</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>5</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>790 px</X>
+              <Y>280 px</Y>
+            </Location>
+            <Size>
+              <Width>325 px</Width>
+              <Height>250 px</Height>
+            </Size>
+            <DbOid>
+              <Path>StargoTest.dbo.PharmacyDepot</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>False</ConstraintsCollapsed>
+              <IndexesCollapsed>False</IndexesCollapsed>
+              <TriggersCollapsed>False</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="TableModel">
+            <CustomProperties>
+              <OID>6</OID>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <Location>
+              <X>1222 px</X>
+              <Y>278 px</Y>
+            </Location>
+            <Size>
+              <Width>371 px</Width>
+              <Height>267 px</Height>
+            </Size>
+            <DbOid>
+              <Path>StargoTest.dbo.PharmProduct</Path>
+              <TypeName>Table</TypeName>
+            </DbOid>
+            <Compartments>
+              <ConstraintsCollapsed>False</ConstraintsCollapsed>
+              <IndexesCollapsed>False</IndexesCollapsed>
+              <TriggersCollapsed>False</TriggersCollapsed>
+            </Compartments>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>7</OID>
+              <Comment>8</Comment>
+              <OutModel>6</OutModel>
+              <InModel>1</InModel>
+              <OutPort>9</OutPort>
+              <InPort>10</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>344.629713136039 px</X>
+                  <Y>104.796400494779 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>9</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>-1 px</X>
+                  <Y>91.425 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>10</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>1613 px</X>
+                <Y>382.796400494779 px</Y>
+              </PointD>
+              <PointD>
+                <X>1613 px</X>
+                <Y>381.425 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>StargoTest.dbo.PharmProduct.FK_PharmProduct_DosageUnitType_DosageUnitId</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>8</OID>
+              <HolderModel>7</HolderModel>
+              <Port>11</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-38.5 px</X>
+                  <Y>1.37141270181007 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>11</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>12</OID>
+              <Comment>13</Comment>
+              <OutModel>6</OutModel>
+              <InModel>2</InModel>
+              <OutPort>14</OutPort>
+              <InPort>15</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>187.35 px</X>
+                  <Y>-0.824999999999989 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>14</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>161.35 px</X>
+                  <Y>179 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>15</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>1409.35 px</X>
+                <Y>258 px</Y>
+              </PointD>
+              <PointD>
+                <X>1791.35 px</X>
+                <Y>258 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>StargoTest.dbo.PharmProduct.FK_PharmProduct_FormReleaseType_FormReleaseId</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>13</OID>
+              <HolderModel>12</HolderModel>
+              <Port>16</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-190.999975585938 px</X>
+                  <Y>20 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>16</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>17</OID>
+              <Comment>18</Comment>
+              <OutModel>5</OutModel>
+              <InModel>4</InModel>
+              <OutPort>19</OutPort>
+              <InPort>20</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>-42.2142509111613 px</X>
+                  <Y>144.14786351119 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>19</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>12.9366121877131 px</X>
+                  <Y>94.6026260740541 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>20</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>751 px</X>
+                <Y>424.14786351119 px</Y>
+              </PointD>
+              <PointD>
+                <X>751 px</X>
+                <Y>114.602626074054 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>StargoTest.dbo.PharmacyDepot.FK_PharmacyDepot_Pharmacy_PharmacyUID</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>18</OID>
+              <HolderModel>17</HolderModel>
+              <Port>21</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>39 px</X>
+                  <Y>154.772619370565 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>21</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>22</OID>
+              <Comment>23</Comment>
+              <OutModel>3</OutModel>
+              <InModel>6</InModel>
+              <OutPort>24</OutPort>
+              <InPort>25</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>207.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>24</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>185.5 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Bottom</Align>
+                <CustomProperties>
+                  <OID>25</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>StargoTest.dbo.PackageProduct.FK_PackageProduct_PharmProduct_FarmProductUID</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>23</OID>
+              <HolderModel>22</HolderModel>
+              <Port>26</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>0 px</X>
+                  <Y>32.5 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>26</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>27</OID>
+              <Comment>28</Comment>
+              <OutModel>3</OutModel>
+              <InModel>5</InModel>
+              <OutPort>29</OutPort>
+              <InPort>30</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>-0.0499999999999545 px</X>
+                  <Y>125.425 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>29</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>325.775 px</X>
+                  <Y>125.425 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>30</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>1180 px</X>
+                <Y>735.425 px</Y>
+              </PointD>
+              <PointD>
+                <X>1180 px</X>
+                <Y>405.425 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>StargoTest.dbo.PackageProduct.FK_PackageProduct_PharmacyDepot_PharmacyDepotUID</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>28</OID>
+              <HolderModel>27</HolderModel>
+              <Port>31</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>20 px</X>
+                  <Y>165.000012207031 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>31</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+        </Children>
+        <ViewPort>
+          <ScaleMode>Free</ScaleMode>
+          <Scale>0.846402943</Scale>
+          <Location>
+            <X>24.8108778098468 px</X>
+            <Y>-139.413504595487 px</Y>
+          </Location>
+        </ViewPort>
+      </Model>
+    </DiagramModel>
+  </Diagram>
+</DevartDatabaseDiagram>
