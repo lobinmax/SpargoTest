@@ -1,17 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Data;
 
 namespace SpargoTest
 {
-    public class PharmProduct
+    public class PharmProduct: DataBaseIntity<PharmProduct>, IDataBaseIntity
     {
-        public Guid Id { get; set; }
+        public string ProcedureName { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public string FormRelease { get; set; }
-        public string Dosage { get; set; }
-        public string DosageUnit { get; set; }
-        public int Count { get; set; }
+        public bool NotEmpty { get; set; }
 
+        public PharmProduct()
+        {
+            this.ProcedureName = "PharmProductCrud";
+        }
+        public PharmProduct(int id)
+        {
+            this.ProcedureName = "PharmProductCrud";
+            base.Read(id);
+        }
+
+        public void FillObjFromDr(DataRow row)
+        {
+            this.NotEmpty = true;
+            this.Id = row["PharmProductId"].CustomValueNn<int>(); 
+            this.Name = row["Name"].CustomValue();
+        }
     }
 }
